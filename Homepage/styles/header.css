@@ -13,7 +13,7 @@
 #headerLogo {
 
     margin-right: 385px;
-    
+
     color: #000;
     font-family: Urbanist;
     font-size: 56px;
@@ -26,6 +26,11 @@
 span {
 
     margin-left: 9px;
+}
+
+.headerLinks:hover {
+
+    border-bottom: 1px solid #FFF;
 }
 
 .headerLinks:nth-child(2) {
