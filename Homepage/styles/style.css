@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@600&display=swap');
+
+
 body {
 
     margin: 0;
+}
+
+a:visited {
+
+    color: #FFF;
 }
 
 #homepage {
@@ -12,3 +20,58 @@ body {
     height: 955px;
     width: auto;
 }
+
+#title {
+
+    position: relative;
+    left: 370px;
+    top: 280px;
+}
+
+#slogan {
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#subtitle {
+
+    margin-top: 3px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#titleButton {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+
+    background-color: #013A8F;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+
+    margin-top: 27px;
+}
+
