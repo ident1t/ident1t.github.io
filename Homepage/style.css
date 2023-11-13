@@ -1,0 +1,11 @@
+body {
+
+    margin: 0;
+}
+
+#homepage {
+
+    background-image: url("./Pozadí homepage.svg");
+    height: 955px;
+    width: 1920px;
+}
