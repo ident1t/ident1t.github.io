@@ -4,8 +4,11 @@ body {
 }
 
 #homepage {
-
-    background-image: url("./styles/background_homepage.png");
+    
+    position: relative;
+    
+    margin-top: 0;
+    background-image: url("../images/background_homepage.png");
     height: 955px;
     width: 1920px;
 }
