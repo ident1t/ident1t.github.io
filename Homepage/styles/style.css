@@ -279,7 +279,9 @@ svg {
 
 #timelineContentDate {
 
+    margin-top: 35px;
     margin-left: 64.5px;
+    margin-bottom: 10.5px;
 
     color: #FFF;
     font-family: Urbanist;
@@ -293,7 +295,8 @@ svg {
 #timelineContentRecordTable {
 
     margin-left: 65px;
-    
+    margin-top: 7px;
+
     color: #FFF;
     font-family: Urbanist;
     font-size: 18px;
@@ -303,3 +306,9 @@ svg {
     letter-spacing: 0.5px; 
 }
 
+#timeLineSpliter {
+
+    background-color: #FFF;
+    height: 2px;
+    margin-left: 65.48px;
+}
