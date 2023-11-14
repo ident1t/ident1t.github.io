@@ -257,6 +257,7 @@ a:visited {
 
     margin-left: 370px;
     margin-right: 370px;
+    margin-bottom: 81px;
 
     width: 1180px;
     height: 320px; 
@@ -268,7 +269,6 @@ a:visited {
 #timelineContent {
 
     display: flex;
-    
 }
 
 svg {

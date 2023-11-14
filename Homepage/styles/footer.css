@@ -1,1 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
+
+
+#footerLogo {
+
+    margin-right: 385px;
+
+    color: #000;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: light;
+    letter-spacing: 2px; 
+}
