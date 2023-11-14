@@ -4,6 +4,7 @@
 body {
 
     margin: 0;
+    width: auto
 }
 
 a:visited {
@@ -18,7 +19,7 @@ a:visited {
     margin-top: 0;
     background-image: url("../images/background_homepage.png");
     height: 955px;
-    width: auto;
+
 }
 
 #title {
@@ -26,6 +27,7 @@ a:visited {
     position: relative;
     left: 370px;
     top: 280px;
+    max-width: fit-content;
 }
 
 #slogan {
@@ -81,33 +83,223 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 112px;
-    
-    
+    gap: 112px; 
 }
+
+.sectionTitle {
+
+    margin-top: 31px;
+    
+
+    color: #FFF;
+    text-align: justify;
+    font-family: Urbanist;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+.sectionContent {
+
+    display: flex;
+    justify-content: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.sectionButton {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 33px;*/
+
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #013A8F;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
 
 #firstSection {
 
-    background-color: #132E65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
     width: 319px;
     height: 330px;
     
+
+    background-color: #132E65;
+    
 }
+
 
 #secondSection {
 
-    background-color: #132E65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
     width: 319px;
     height: 330px;
+
+    background-color: #132E65;
+    
+}
+
+#secondSectionContent {
+
+    margin-bottom: 50px;
+}
+
+#secondSectionTitle {
+
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+#secondSectionButton {
+
+    margin: 0;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
 }
 
 #thirdSection {
 
-    background-color: #132E65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 20px;
     width: 319px;
     height: 330px;
+
+    background-color: #132E65;
+    
+}
+
+#thirdSectionTitle {
+
+    margin-bottom: 37px;
+}
+
+#thirdSectionContent {
+
+    margin-bottom: 27px;
+}
+
+
+#aboutProjectSection {
+
+    margin-top: 245px;
+    margin-left: 630px;
+    margin-right: 630px;
+    margin-bottom: 245px;
+    height: 234px;
+    width: 660px;
+    
+    border-radius: 20px;
+    border: 2px solid #132E65;
+    background: #FFF; 
+}
+
+#aboutProjectTitle {
+
+    color: #132E65;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#aboutProjectContent {
+
+    color: #132E65;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#timeline {
+
+    margin-left: 370px;
+    margin-right: 370px;
+
+    width: 1180px;
+    height: 320px; 
+
+    border-radius: 20px;
+    background: #132E65; 
+}
+
+#timelineContent {
+
+    display: flex;
+    
+}
+
+svg {
+
+    margin-left: 80px;
+    margin-top: 35px;
+}
+
+#timelineContentDate {
+
+    margin-left: 64.5px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#timelineContentRecordTable {
+
+    margin-left: 65px;
+    
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px; 
 }
 

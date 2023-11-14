@@ -17,12 +17,12 @@
             <a class="headerLinks" href="" target="_blank" style="text-decoration: none;">Blog</a>
             <a class="headerLinks" href="" target="_blank" style="text-decoration: none;">Úlohy</a>
             <a class="headerLinks" href="" target="_blank" style="text-decoration: none;">Kalkulačka</a>
-            <a id="headerProject" href="" target="_blank" style="text-decoration: none;">O projektu</a>
+            <a id="headerProject" href="#aboutProjectSection" style="text-decoration: none;">O projektu</a>
             <img id="headerLanguage" src="./images/czech_flag.png">
         </nav>
         <div id="title">
-            <b id="slogan">Trénuj, uč se<br>
-                a ušetři čas!!
+            <div id="slogan">Trénuj, uč se<br>
+                a ušetři čas!!</div>
             <div id="subtitle">Chceš se více dozvědět o světě<br>
                 počítačových sítí, ale nevíš kde?</div>
             <a id="titleButton" href="" target="_blank" style="text-decoration: none;">Zjistit více</a>
@@ -30,28 +30,29 @@
     </div>
     <div id="sections">
         <div id="firstSection">
-            <div id="firstSectionTitle">Kalkulačka</div>
-            <div id="firstSectionContent">Chceš jen ušetřit čas?<br>
+            <div class="sectionTitle" id="firstSectionTitle">Kalkulačka</div>
+            <p class="sectionContent" id="firstSectionContent">Chceš jen ušetřit čas?<br>
                 Tak to jsi tady správně!<br>
                 Vyvinuli jsme pro tebe skvělou<br>
                 kalkulačku, s kterou ti to půjde<br>
-                jedna dvě!</div>
-            <div id="firstSectionButton">Kalkulačka</div>
+                jedna dvě!</p>
+            <a class="sectionButton" id="firstSectionButton" href="" target="_blank" style="text-decoration: none;">Kalkulačka</a>
         </div>
         <div id="secondSection">
-            <div id="secondSectionTitle">Již brzy spouštíme náš blog!</div>
-            <div id="secondSectionContent">Můžete se těšit na články o<br>
+            <p class="sectionTitle" id="secondSectionTitle">Již brzy spouštíme<br>
+                náš blog!</p>
+            <div class="sectionContent" id="secondSectionContent">Můžete se těšit na články o<br>
                 počítačových sítí i na rubriku o<br>
                 Cisco kurzech.</div>
-            <div id="secondSectionButton">Již brzy</div>
+            <p id="secondSectionButton">Již brzy...</p> 
         </div>
         <div id="thirdSection">
-            <div id="thirdSectionTitle">Úlohy</div>
-            <div id="thirdSectionContent">Nejde ti IP adresace?<br>
+            <div class="sectionTitle" id="thirdSectionTitle">Úlohy</div>
+            <div class="sectionContent" id="thirdSectionContent">Nejde ti IP adresace?<br>
                 Nevíš, co je to VLSM/FLSM?<br>
                 Nevěš hlavu, připravili jsme<br>
                 pro tebe řadu úloh k procvičení!</div>
-            <div id="thirdSectionButton">Začít počítat</div>
+            <a class="sectionButton" id="thirdSectionButton" href="" target="_blank" style="text-decoration: none;">Začít počítat</a>
         </div>
     </div>
     <div id="aboutProjectSection" align="center">
@@ -64,8 +65,16 @@
     </div>
     <div id="timeline">
         <div id="timelineContent">
-            <h2 id="timelineContentDate">2024</h2>
-            <ul>Duben 2024, vymýšlíme a spouštíme webovou stránku XTworks.com!</ul>
+            <svg width="16" height="251" viewBox="0 0 16 251" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.29289 250.707C7.68342 251.098 8.31658 251.098 8.70711 250.707L15.0711 244.343C15.4616 243.953 15.4616 243.319 15.0711 242.929C14.6805 242.538 14.0474 242.538 13.6569 242.929L8 248.586L2.34315 242.929C1.95262 242.538 1.31946 242.538 0.928932 242.929C0.538408 243.319 0.538408 243.953 0.928932 244.343L7.29289 250.707ZM7 0L7 250H9L9 0L7 0Z" fill="white"/>
+            </svg>
+            <div>
+                <h2 id="timelineContentDate">2024</h2>
+                <ul id="timelineContentRecordTable">
+                    <li>Duben 2024, vymýšlíme a spouštíme webovou stránku XTworks.com!</li>
+                </ul>
+            </div>
+            
         </div>
     </div>
     <div id="footer">
@@ -76,8 +85,8 @@
             <div class="footerLink">Kalkulačka</div>
         </div>
         <div id="footerImages">
-            <img class="footerImage" src="">
-            <img class="footerImage" src="">
+            <img class="footerImage" src="./images/discord-logo.svg">
+            <img class="footerImage" src="./images/github-logo.svg">
         </div>
         <div id="footerBottoms">
             <div class="footerBottom"></div>
