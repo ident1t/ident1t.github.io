@@ -7,11 +7,6 @@ body {
     width: auto
 }
 
-a:visited {
-
-    color: #FFF;
-}
-
 #homepage {
     
     position: relative;
@@ -75,6 +70,11 @@ a:visited {
     letter-spacing: 0.5px; 
 
     margin-top: 27px;
+}
+
+#titleButton:visited {
+
+    color: #FFF;
 }
 
 #sections {
@@ -218,6 +218,8 @@ a:visited {
 
 #aboutProjectSection {
 
+
+    
     margin-top: 245px;
     margin-left: 630px;
     margin-right: 630px;
@@ -255,9 +257,11 @@ a:visited {
 
 #timeline {
 
-    margin-left: 370px;
-    margin-right: 370px;
-    margin-bottom: 81px;
+    position: relative;
+
+    left: 370px;
+    right: 370px;
+    bottom: 81px;
 
     width: 1180px;
     height: 320px; 

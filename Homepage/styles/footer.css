@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
 
 
+#footer {
+    
+    position: relative;
+    left: 370px;
+    right: 370px;
+
+    color: #132e65;
+    border-top: 2px solid #132e65;
+    width: 1180px;
+    height: 186px;
+
+}
+
 #footerLogo {
 
-    margin-right: 385px;
+    position: relative;
+    top: 38px;
 
     color: #000;
     font-family: Urbanist;
@@ -14,7 +28,69 @@
     letter-spacing: 2px; 
 }
 
-#footer {
+#footerLinks {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.footerLink {
+
+    color: #132e65;
+    font-family: 'Urbanist';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+#footerImages {
+
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 1030px;
+    width: 125px;
+}
+
+#footerImage2 {
     
+    position: relative;
+    bottom: 6px;
+}
+
+#footerBottoms {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 63.5px;
+}
+
+#footerBottomLeft {
+
+    height: 2px;
+    background-color: #132e65;
+    width: 500px;
+}
+
+#footerBottomDate {
+
+    color: #132e65;
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+#footerBottomRight {
+
+    height: 2px;
+    width: 500px;
+    background-color: #132e65;
 }
