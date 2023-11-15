@@ -223,13 +223,10 @@ body {
 
 
 #aboutProjectSection {
-
-
     
     margin-top: 245px;
     margin-left: 630px;
     margin-right: 630px;
-    margin-bottom: 245px;
     height: 234px;
     width: 660px;
     
@@ -265,9 +262,9 @@ body {
 
     position: relative;
 
+    top: 245px;
     left: 370px;
     right: 370px;
-    bottom: 81px;
 
     width: 1180px;
     height: 320px; 
