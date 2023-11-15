@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
 
+
+#headerLogo:visited {
+
+    color: #000;
+}
+
 #header {
 
     position: relative;
