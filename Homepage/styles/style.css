@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@600&display=swap');
 
 
+
 body {
 
     margin: 0;
@@ -15,6 +16,11 @@ body {
     background-image: url("../images/background_homepage.png");
     height: 955px;
 
+}
+
+#hiddenMessage {
+
+    display: none;
 }
 
 #title {
