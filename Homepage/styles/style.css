@@ -15,6 +15,7 @@ body {
     margin-top: 0;
     background-image: url("../images/background_homepage.png");
     height: 955px;
+    width: auto;
 
 }
 
@@ -83,9 +84,19 @@ body {
     color: #FFF;
 }
 
+
+
+#homepageMain {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 245px;
+}
+
+
 #sections {
 
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -222,11 +233,15 @@ body {
 }
 
 
+#aboutProject {
+
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
 #aboutProjectSection {
     
-    margin-top: 245px;
-    margin-left: 630px;
-    margin-right: 630px;
     height: 234px;
     width: 660px;
     
@@ -258,13 +273,14 @@ body {
     letter-spacing: 0.5px; 
 }
 
+#timeLineMain {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
 #timeline {
-
-    position: relative;
-
-    top: 245px;
-    left: 370px;
-    right: 370px;
 
     width: 1180px;
     height: 320px; 
