@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
+
+
+#headerLogo:visited {
+
+    color: #000;
+}
+
+#header {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 385px;
+    top: 59px;
+    left: 370px;
+    max-width: fit-content;
+}
+
+#headerLogo {
+
+    color: #000;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: light;
+    letter-spacing: 2px; 
+}
+
+span {
+
+    margin-left: 9px;
+}
+
+#navbarLinks {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 69px;
+    align-items: center;
+}
+
+
+#navbarMainLinks{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 43px;
+    width: 229px;
+}
+
+.headerLinks:nth-child(1) {
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+.headerLinks:nth-child(2) {
+    
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+.headerLinks:nth-child(3) {
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#headerProject{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 44px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+
+    border-radius: 5px;
+    border: 2px solid #FFF;
+}
+
+#headerProject:hover {
+
+    background: rgba(0, 0, 0, 0.15);
+}
