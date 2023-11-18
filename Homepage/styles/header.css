@@ -103,5 +103,9 @@ span {
 
     border-radius: 5px;
     border: 2px solid #FFF;
-    
+}
+
+#headerProject:hover {
+
+    background: rgba(0, 0, 0, 0.15);
 }
