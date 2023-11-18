@@ -80,6 +80,12 @@ body {
     margin-top: 27px;
 }
 
+#titleButton:hover {
+
+    background-color: rgb(22, 87, 185);
+}
+
+
 #titleButton:visited {
 
     color: #FFF;
@@ -157,6 +163,10 @@ body {
     letter-spacing: 0.5px; 
 }
 
+.sectionButton:hover {
+
+    background-color: rgb(22, 87, 185);
+}
 
 #firstSection {
 
