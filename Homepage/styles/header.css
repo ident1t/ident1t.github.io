@@ -54,15 +54,7 @@ span {
     width: 229px;
 }
 
-.headerLinks:hover {
-
-    border-bottom: 1px solid #FFF;
-}
-
-
 .headerLinks:nth-child(1) {
-
-    
 
     color: #FFF;
     font-family: Urbanist;
@@ -75,8 +67,6 @@ span {
 
 .headerLinks:nth-child(2) {
     
-    
-
     color: #FFF;
     font-family: Urbanist;
     font-size: 15px;
