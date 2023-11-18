@@ -5,7 +5,8 @@
 body {
 
     margin: 0;
-    width: auto
+    width: auto;
+    
 }
 
 #homepage {
@@ -15,7 +16,7 @@ body {
     margin-top: 0;
     background-image: url("../images/background_homepage.png");
     height: 955px;
-    width: auto;
+    width: 1920px;
 
 }
 

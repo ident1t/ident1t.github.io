@@ -58,6 +58,11 @@
     letter-spacing: 0.5px;
 }
 
+.footerLink:hover {
+
+    border-bottom: 1px solid #132e65;
+}
+
 
 #footerImages {
 
