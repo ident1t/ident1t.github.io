@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
+
+.sectionAnimation:hover {
+
+    animation-iteration-count: 1;
+    animation: sectionOnHover 0.1s linear forwards;
+}
+
+@keyframes sectionOnHover {
+    
+    0% {
+
+        transform: translateY(0);   
+    }
+
+    100% {
+
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+        transform: translateY(-20px);
+    }
+}
+
+.sectionAnimation:after {
+
+    animation-iteration-count: 1;
+    animation: sectionOffHover 0.1s linear;
+}
+
+@keyframes sectionOffHover {
+    
+    0% {
+
+        filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+        transform: translateY(-20px);   
+    }
+
+    50% {
+
+        transform: translateY(-10px);
+    }
+
+    100% {
+
+        transform: translateY(0);
+    }
+}
