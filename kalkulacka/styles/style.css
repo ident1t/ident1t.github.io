@@ -1,7 +1,190 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@600&display=swap');
 
 body {
 
     margin: 0;
     background-image: url("../images/background_calculator.svg");
+}
+
+#homepage {
+
+    display: flex;
+    width: 1180px;
+    gap: 318px;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 176px;
+}
+
+#calculatorSection {
+
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 330px;
+
+    background-color: #132E65;
+    color: #fff;
+
+    border-radius: 20px;
+}
+
+#calculatorHeader {
+    
+    
+    margin-left: 57px;
+    margin-top: 45px;
+
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#calculatorSection {
+
+    display: flex;
+    gap: 20px;
+}
+
+#firstCalculatorInput {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+
+input {
+
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF; 
+    height: 34px;
+    width: 197px;
+
+    outline: 0;
+    border: 1px solid #000;
+}
+
+input::placeholder {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+
+.inputIdentifier {
+
+    margin: 0;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#secondCalculatorInput {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 122px;
+}
+
+#buttonSection {
+
+    display: flex;
+    justify-content: center;
+}
+
+#calculateButton {
+
+    border-radius: 5px;
+    background: #013A8F;
+    width: 200px;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    outline: none;
+    border: 1px solid #013A8F;
+}
+
+#calculateButton:hover {
+
+    background-color: rgb(22, 87, 185);
+}
+
+#idkSection {
+
+    width: 382px;
+    height: 274px;
+
+    color: #fff;
+
+    text-align: center;
+
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#idkHeader {
+
+    margin-top: 48px;
+    margin-bottom: 22px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#idkContentText {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#idkButton {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+    margin-top: 34px;
+    margin-bottom: 50px;
 }

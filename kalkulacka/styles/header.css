@@ -8,13 +8,12 @@
 
 #header {
 
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 385px;
-    top: 59px;
-    left: 370px;
+    margin-top: 59px;
+    margin-left: 370px;
     max-width: fit-content;
 }
 
