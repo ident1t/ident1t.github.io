@@ -72,6 +72,20 @@
     gap: 20px;
 }
 
+.footerImage:hover {
+
+    animation-iteration-count: 1;
+    animation: imagesOnHover 0.1s linear forwards;
+}
+
+@keyframes imagesOnHover {
+    
+    100% {
+
+        scale: 1.1 1.1;
+    }
+}
+
 #footerBottomsMain {
 
     display: flex;
