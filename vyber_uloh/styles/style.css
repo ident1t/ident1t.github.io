@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
+
+body {
+
+    margin: 0;
+    background-image: url("../images/background_task_selection.svg");
+}
+
+#homepage {
+
+    display: flex;
+    align-items: center;
+    width: 1020px;
+    gap: 88px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 160px;
+}
+
+#ip-section-button {
+
+    display: flex;
+    justify-content: center;
+}
+
+#ip-section-button-self {
+
+    margin: 0;
+    border-radius: 5px;
+    background: #013A8F;
+    width: 200px;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#ip-section-button-self:visited {
+
+    color: #FFF;
+}
+
+#ip-section-button-self:hover {
+
+    background-color: rgb(22, 87, 185);
+}
+
+#flsm-vlsm-section-button {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+
+.sections {
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    width: 320px;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section-header {
+
+    margin-top: 51px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+.section-content {
+
+    margin: 0px;
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;  
+}
+
+#middle-text {
+
+    color: #FFF;
+text-align: center;
+font-family: Urbanist;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.5px; 
+}
