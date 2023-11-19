@@ -10,14 +10,11 @@ body {
 }
 
 #homepage {
-    
-    position: relative;
-    
+
     margin-top: 0;
     background-image: url("../images/background_homepage.png");
     height: 955px;
     width: auto;
-
 }
 
 #title {
