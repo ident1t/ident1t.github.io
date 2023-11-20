@@ -4,6 +4,7 @@ body {
 
     margin: 0;
     background-image: url("../images/background_calculator.svg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -14,28 +15,41 @@ body {
     gap: 318px;
     margin-left: 370px;
     margin-right: 370px;
-    margin-top: 176px;
+    margin-top: 90px;
 }
 
-#calculatorSection {
+p {
+
+    margin: 0;
+}
+
+a:visited {
+
+    color: #FFF;
+}
+
+#result-section {
 
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 480px;
-    height: 330px;
+    height: 591px;
 
     background-color: #132E65;
     color: #fff;
 
     border-radius: 20px;
+    margin: 0;
 }
 
-#calculatorHeader {
+#result-header {
     
     margin-left: 57px;
     margin-top: 45px;
+    margin-bottom: 35px;
 
+    color: #FFF;
     font-family: Urbanist;
     font-size: 36px;
     font-style: normal;
@@ -44,40 +58,27 @@ body {
     letter-spacing: 0.5px; 
 }
 
-#firstCalculatorInput {
+#result-indicators {
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    
+    gap: 35px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.result-indicator {
+
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 132px;
 }
 
-input {
-
-    text-align: center;
-    border-radius: 5px;
-    background: #FFF; 
-    height: 34px;
-    width: 197px;
-
-    outline: 0;
-    border: 1px solid #000;
-}
-
-input::placeholder {
-
-    font-family: Urbanist;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 0.5px;
-}
-
-
-.inputIdentifier {
+.result-identifier {
 
     margin: 0;
+    color: #FFF;
     font-family: Urbanist;
     font-size: 16px;
     font-style: normal;
@@ -86,21 +87,14 @@ input::placeholder {
     letter-spacing: 0.5px; 
 }
 
-#secondCalculatorInput {
+#result-button {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 122px;
+    margin-top: 27px;
 }
 
-#buttonSection {
-
-    display: flex;
-    justify-content: center;
-}
-
-#calculateButton {
+#result-button-text {
 
     border-radius: 5px;
     background: #013A8F;
@@ -123,12 +117,12 @@ input::placeholder {
     border: 1px solid #013A8F;
 }
 
-#calculateButton:hover {
+#result-button-text:hover {
 
     background-color: rgb(22, 87, 185);
 }
 
-#idkSection {
+#idk-section {
 
     width: 382px;
     height: 274px;
@@ -143,7 +137,7 @@ input::placeholder {
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-#idkHeader {
+#idk-header {
 
     margin-top: 48px;
     margin-bottom: 22px;
@@ -157,7 +151,7 @@ input::placeholder {
     letter-spacing: 0.5px; 
 }
 
-#idkContentText {
+#idk-content {
 
     color: #FFF;
     text-align: center;
@@ -169,7 +163,7 @@ input::placeholder {
     letter-spacing: 0.5px; 
 }
 
-#idkButton {
+#idk-button {
 
     color: #FFF;
     text-align: center;

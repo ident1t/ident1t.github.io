@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XTworks</title>
+    <link rel="icon" href="./images/logo_new.svg">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+</head>
+<body>
+    <nav id="header">
+        <a id="headerLogo" href="../Homepage/" style="text-decoration: none;"><img src="./images/logo_new.svg" height="50px"><span>works</span></a>
+        <div id="navbarLinks">
+            <div id="navbarMainLinks">
+                <a class="headerLinks" href="" target="" style="text-decoration: none;">Blog</a>
+                <a class="headerLinks" href="../vyber_uloh/" target="_self" style="text-decoration: none;">Úlohy</a>
+                <a class="headerLinks" href="../kalkulacka/" target="_self" style="text-decoration: none;">Kalkulačka</a>
+            </div>
+            
+            <a id="headerProject" href="../Homepage/#aboutProjectSection" target="_self" style="text-decoration: none;">O projektu</a>
+            <img id="headerLanguage" src="./images/czech_flag.png">
+            
+        </div>
+    </nav>
+
+    <div id="homepage">
+        <div id="result-section">
+            <p id="result-header">Výsledek</p>
+            <div id="result-indicators">
+                <div class="result-indicator">
+                    <label class="result-identifier">Síťová adresa</label>
+                    <p class="result">{{vysledek}}</p>
+                </div>
+                <div class="result-indicator">
+                    <label class="result-identifier">První host</label>
+                    <p class="result">{{vysledek}}</p>
+                </div>
+                <div class="result-indicator">
+                    <label class="result-identifier">Poslední host</label>
+                    <p class="result">{{vysledek}}</p>
+                </div>
+                <div class="result-indicator">
+                    <label class="result-identifier">Broadcastová adresa</label>
+                    <p class="result">{{vysledek}}</p>
+                </div>
+                <div class="result-indicator">
+                    <label class="result-identifier">Typ adresy</label>
+                    <p class="result">{{vysledek}}</p>
+                </div>
+                <div class="result-indicator">
+                    <label class="result-identifier">Třída adresy</label>
+                    <p class="result">{{vysledek}}</p>
+                </div>
+                <div id="result-button">
+                    <a href="../ip_adresace/" tareget="_self" style="text-decoration: none;" id="result-button-text">Počítat dál</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="idk-section">
+            <p id="idk-header">Nevíš si rady?</p>
+            <p id="idk-content">Již brzy najdeš na odkazu<br>
+               níže podrobná skripta k IP<br>
+               adresaci.
+            </p>
+            <p id="idk-button">Již brzy...</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

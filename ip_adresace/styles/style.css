@@ -4,6 +4,7 @@ body {
 
     margin: 0;
     background-image: url("../images/background_ip_adresace.svg");
+    background-repeat: no-repeat;
 }
 
 #homepage {
