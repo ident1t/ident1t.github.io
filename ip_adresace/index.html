@@ -3,12 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>XTworks</title>
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/footer.css"
+    <link rel="icon" href="./images/logo_new.svg">
 </head>
 <body>
-    
+    <nav id="header">
+        <a id="headerLogo" href="" style="text-decoration: none;"><img src="./images/logo_new.svg" height="50px"><span>works</span></a>
+        <div id="navbarLinks">
+            <div id="navbarMainLinks">
+                <a class="headerLinks" href="" target="_blank" style="text-decoration: none;">Blog</a>
+                <a class="headerLinks" href="" target="_blank" style="text-decoration: none;">Úlohy</a>
+                <a class="headerLinks" href="" target="_blank" style="text-decoration: none;">Kalkulačka</a>
+            </div>
+            
+            <a id="headerProject" href="" style="text-decoration: none;">O projektu</a>
+            <img id="headerLanguage" src="./images/czech_flag.png">
+            
+        </div>
+    </nav>
+
+    <div id="homepage">
+        <div id="task-section">
+            <div id="task-header">192.168.1.20/24</div>
+            <div id="task-section-inputs">
+                <div class="task-input">
+                    <label class="input-identifier">Síťová adresa</label>
+                    <input placeholder="Vaše odpověď" maxlength="15">
+                </div>
+                <div class="task-input">
+                    <label class="input-identifier">První host</label>
+                    <input placeholder="Vaše odpověď" maxlength="15">
+                </div>
+                <div class="task-input">
+                    <label class="input-identifier">Poslední host</label>
+                    <input placeholder="Vaše odpověď" maxlength="15">
+                </div>
+                <div class="task-input">
+                    <label class="input-identifier">Broadcastová adresa</label>
+                    <input placeholder="Vaše odpověď" maxlength="15">
+                </div>
+            </div>
+            <div id="task-section-button">
+                <button id="task-section-button-text">Spočítat</button>
+            </div>
+        </div>
+
+        <div id="idk-section">
+            <p id="idk-header">Nevíš si rady?</p>
+            <p id="idk-content-text">Již brzy najdeš na odkazu<br>
+               níže podrobná skripta k IP<br>
+               adresaci.
+            </p>
+            <p id="idk-button">Již brzy...</p>
+        </div>
+    </div>
 </body>
 </html>

@@ -20,6 +20,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    gap: 20px;
     width: 480px;
     height: 330px;
 
@@ -45,8 +46,7 @@ body {
 
 #calculatorSection {
 
-    display: flex;
-    gap: 20px;
+    
 }
 
 #firstCalculatorInput {

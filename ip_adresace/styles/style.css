@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@600&display=swap');
+
+body {
+
+    margin: 0;
+    background-image: url("../images/background_ip_adresace.svg");
+}
+
+#homepage {
+
+    display: flex;
+    width: 1180px;
+    gap: 318px;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 111px;
+}
+
+#task-section {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 480px;
+    height: 500px;
+
+    background-color: #132E65;
+    color: #fff;
+
+    border-radius: 20px;
+    margin: 0;
+}
+
+#task-header {
+    
+    
+    margin-left: 57px;
+    margin-top: 62px;
+    margin-bottom: 35px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-decoration-line: underline; 
+}
+
+#task-section-inputs {
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 22px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.task-input {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-identifier {
+
+    width: 200px;
+}
+
+
+
+input {
+
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF; 
+    height: 34px;
+    width: 197px;
+
+    outline: 0;
+    border: 1px solid #000;
+}
+
+input::placeholder {
+
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+
+.input-identifier {
+
+    margin: 0;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#task-input-second {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 122px;
+}
+
+#task-section-button {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+#task-section-button-text {
+
+    border-radius: 5px;
+    background: #013A8F;
+    width: 200px;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    outline: none;
+    border: 1px solid #013A8F;
+}
+
+#task-section-button-text:hover {
+
+    background-color: rgb(22, 87, 185);
+}
+
+#idk-section {
+
+    width: 382px;
+    height: 274px;
+
+    color: #fff;
+
+    text-align: center;
+
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#idk-header {
+
+    margin-top: 48px;
+    margin-bottom: 22px;
+
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#idk-content-text {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
+#idk-button {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+
+    margin-top: 34px;
+    margin-bottom: 50px;
+}
