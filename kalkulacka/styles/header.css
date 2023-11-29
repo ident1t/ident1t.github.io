@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Urbanist:wght@300&display=swap');
 
 
-#headerLogo:visited {
-
-    color: #000;
-}
 
 #header {
 
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 385px;
-    margin-top: 59px;
-    margin-left: 370px;
+    top: 59px;
+    left: 370px;
     max-width: fit-content;
 }
 
@@ -25,7 +22,20 @@
     font-style: normal;
     font-weight: 300;
     line-height: light;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
+
+    transition: scale 0.2s, translate 0.2s;
+}
+
+#headerLogo:hover {
+
+    scale: 1.1 1.1;
+    translate: 13px 0;
+}
+
+#headerLogo:visited {
+
+    color: #000;
 }
 
 span {
@@ -51,7 +61,7 @@ span {
     width: 229px;
 }
 
-.headerLinks:nth-child(1) {
+.headerLinks {
 
     color: #FFF;
     font-family: Urbanist;
@@ -60,28 +70,13 @@ span {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.5px; 
+    transition: scale 0.2s;
 }
 
-.headerLinks:nth-child(2) {
-    
-    color: #FFF;
-    font-family: Urbanist;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.5px; 
-}
+.headerLinks:hover {
 
-.headerLinks:nth-child(3) {
-
-    color: #FFF;
-    font-family: Urbanist;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.5px; 
+    scale: 1.2 1.2;
+    font-weight: 900;
 }
 
 #headerProject{
@@ -102,9 +97,12 @@ span {
 
     border-radius: 5px;
     border: 2px solid #FFF;
+
+    transition: scale 0.2s;
 }
 
 #headerProject:hover {
 
     background: rgba(0, 0, 0, 0.15);
+    scale: 1.1 1.1;
 }

@@ -15,7 +15,7 @@ body {
     gap: 318px;
     margin-left: 370px;
     margin-right: 370px;
-    margin-top: 90px;
+    margin-top: 170px;
 }
 
 p {
@@ -115,11 +115,14 @@ a:visited {
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
     outline: none;
     border: 1px solid #013A8F;
+
+    transition: scale 0.2s;
 }
 
 #result-button-text:hover {
 
     background-color: rgb(22, 87, 185);
+    scale: 1.1 1.1;
 }
 
 #idk-section {

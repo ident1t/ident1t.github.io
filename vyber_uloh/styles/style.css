@@ -15,7 +15,7 @@ body {
     gap: 88px;
     margin-left: 450px;
     margin-right: 450px;
-    margin-top: 160px;
+    margin-top: 230px;
 }
 
 #ip-section-button {
@@ -43,6 +43,8 @@ body {
     line-height: normal;
     letter-spacing: 0.5px; 
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+
+    transition: scale 0.2s;
 }
 
 #ip-section-button-self:visited {
@@ -53,6 +55,7 @@ body {
 #ip-section-button-self:hover {
 
     background-color: rgb(22, 87, 185);
+    scale: 1.1 1.1;
 }
 
 #flsm-vlsm-section-button {
@@ -83,15 +86,19 @@ body {
     border: 2px solid #FFF;
     background: rgba(0, 0, 0, 0.15);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    transition: scale 0.2s;
 }
 
 .sections:hover {
 
-    animation-iteration-count: 1;
-    animation: sectionOnHover 0.1s linear forwards;
+    /*animation-iteration-count: 1;
+    animation: sectionOnHover 0.1s linear forwards;*/
+
+    scale: 1.1 1.1;
 }
 
-@keyframes sectionOnHover {
+/*@keyframes sectionOnHover {
 
     100% {
 
@@ -99,7 +106,7 @@ body {
         translate: 0 -15px;
         scale: 1.1 1.1;
     }
-}
+}*/
 
 
 .section-header {
@@ -136,11 +143,18 @@ body {
 #middle-text {
 
     color: #FFF;
-text-align: center;
-font-family: Urbanist;
-font-size: 36px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.5px; 
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+
+    transition: scale 0.2s;
+}
+
+#middle-text:hover {
+
+    scale: 1.1 1.1;
 }
