@@ -35,6 +35,14 @@
     font-weight: 300;
     line-height: normal;
     letter-spacing: 2px; 
+
+    transition: scale 0.2s, translate 0.2s;
+}
+
+#footerLogo:hover {
+
+    scale: 1.1 1.1;
+    translate: 13px 0;
 }
 
 #footerLinks {
@@ -56,11 +64,14 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.5px;
+
+    transition: scale 0.2s;
 }
 
 .footerLink:hover {
 
-    border-bottom: 1px solid #132e65;
+    scale: 1.2 1.2;
+    font-weight: 900;
 }
 
 
@@ -72,19 +83,25 @@
     gap: 20px;
 }
 
-.footerImage:hover {
+.footerImage {
 
-    animation-iteration-count: 1;
-    animation: imagesOnHover 0.1s linear forwards;
+    transition: scale 0.2s;
 }
 
-@keyframes imagesOnHover {
+.footerImage:hover {
+
+    /*animation-iteration-count: 1;
+    animation: imagesOnHover 0.1s linear forwards;*/
+    scale: 1.2 1.2;
+}
+
+/*@keyframes imagesOnHover {
     
     100% {
 
         scale: 1.1 1.1;
     }
-}
+}*/
 
 #footerBottomsMain {
 
