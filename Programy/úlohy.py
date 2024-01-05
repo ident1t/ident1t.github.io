@@ -8,7 +8,7 @@ prefix = random.randrange(1, 32)
 
 print(str(octet1) + "." + str(octet2) + "." + str(octet3) + "." + str(octet4) + "/" + str(prefix))
 
-
+#function calculating a network address and a first host
 def networkAddress(networkMask, octet1, octet2, octet3, octet4, firstHost: int):
 
     octetsMask = networkMask.split(".")
@@ -31,7 +31,7 @@ def networkAddress(networkMask, octet1, octet2, octet3, octet4, firstHost: int):
 
     return networkAddr, firstHost
 
-#function defining a broadcast address and the last host
+#function calculating a broadcast address and the last host
 def broadcastAddress(networkMask, octet1, octet2, octet3, octet4, lastHost):
 
     octetsMask = networkMask.split(".")
