@@ -73,11 +73,9 @@ print("Y - Network mask in decimal form from the interval <1-32>.")
 print("----------------------------------------------------------")
 print()
 
-mainInput = input()
+output = request.form.to_dict()
 
-mainInputList = []
-
-if mainInput != None:
+if output != None:
     mainInputList = mainInput.split("/")
 
 networkMask = 0

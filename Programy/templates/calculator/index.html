@@ -3,42 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XTworks</title>
-    <link rel="icon" href="./images/logo_new.svg">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/header.css">
+    <title>Subnetron</title>
+    <link rel="icon" href="./static/calculator/images/logo.svg">
+    <link rel="stylesheet" href="./static/calculator/styles/style.css">
+    <link rel="stylesheet" href="./static/calculator/styles/header.css">
 </head>
 <body>
     <nav id="header">
-        <a id="headerLogo" href="../Homepage/" style="text-decoration: none;"><img src="./images/logo_new.svg" height="50px"><span>works</span></a>
+        <a id="headerLogo" href="./" style="text-decoration: none;"><img src="./static/shared/images/logo.svg" height="50px"><span>works</span></a>
         <div id="navbarLinks">
             <div id="navbarMainLinks">
                 <a class="headerLinks" href="" target="" style="text-decoration: none;">Blog</a>
-                <a class="headerLinks" href="../vyber_uloh/" target="_self" style="text-decoration: none;">Úlohy</a>
-                <a class="headerLinks" href="../kalkulacka/" target="_self" style="text-decoration: none;">Kalkulačka</a>
+                <a class="headerLinks" href="./exercises" target="_self" style="text-decoration: none;">Úlohy</a>
+                <a class="headerLinks" href="./calculator" target="_self" style="text-decoration: none;">Kalkulačka</a>
             </div>
             
-            <a id="headerProject" href="../Homepage/#aboutProjectSection" target="_self" style="text-decoration: none;">O projektu</a>
-            <img id="headerLanguage" src="./images/czech_flag.png">
+            <a id="headerProject" href="./#aboutProjectSection" target="_self" style="text-decoration: none;">O projektu</a>
+            <img id="headerLanguage" src="./static/shared/images/czech_flag.png">
             
         </div>
     </nav>
 
     <div id="homepage">
-        <div id="calculatorSection">
+        <form id="calculatorSection" action="/calculator/result" method="post">
             <p id="calculatorHeader">Kalkulačka</p>
             <div id="firstCalculatorInput">
                 <p class="inputIdentifier">IP adresa</p>
-                <input placeholder="192.168.1.25" maxlength="15">
+                <input type="text" placeholder="192.168.1.25" name="ip" maxlength="15">
             </div>
             <div id="secondCalculatorInput">
                 <p class="inputIdentifier">Maska sítě</p>
-                <input placeholder="255.255.255.0" maxlength="15">
+                <input type="text" placeholder="24" name="mask" maxlength="2">
             </div>
             <div id="buttonSection">
                 <button id="calculateButton">Spočítat</button>
             </div>
-        </div>
+        </form>
 
         <div id="idkSection">
             <p id="idkHeader">Nevíš si rady?</p>
