@@ -27,13 +27,13 @@
     <div id="homepage">
         <form id="calculatorSection" action="/calculator/result" method="post">
             <p id="calculatorHeader">Kalkulačka</p>
-            <div id="firstCalculatorInput">
+            <div id="CalculatorInputSection">
                 <p class="inputIdentifier">IP adresa</p>
-                <input type="text" placeholder="192.168.1.25" name="ip" maxlength="15">
-            </div>
-            <div id="secondCalculatorInput">
-                <p class="inputIdentifier">Maska sítě</p>
-                <input type="text" placeholder="24" name="mask" maxlength="2">
+                <div id="inputsSection">
+                    <input id="ip-input" type="text" placeholder="192.168.1.25" name="ip" maxlength="15">
+                    <p id="slash">/</p>
+                    <input id="mask-input" type="text" placeholder="24" name="mask" maxlength="2">
+                </div>
             </div>
             <div id="buttonSection">
                 <button id="calculateButton">Spočítat</button>

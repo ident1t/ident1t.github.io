@@ -87,11 +87,23 @@ a:visited {
     letter-spacing: 0.5px; 
 }
 
+.result {
+
+    margin: 0;
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px; 
+}
+
 #result-button {
 
     display: flex;
     justify-content: center;
-    margin-top: 27px;
+    margin-top: 0px;
 }
 
 #result-button-text {

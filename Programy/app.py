@@ -95,7 +95,7 @@ def result():
         elif octet1 == 127:
             addressType = "Private (Loopback)"
         else:
-            addressType = "Address type: public"
+            addressType = "Public"
 
         return addressType
 
