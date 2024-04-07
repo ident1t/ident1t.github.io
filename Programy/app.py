@@ -20,8 +20,6 @@ def calculator():
 
 @app.route("/calculator/result", methods = ['POST', 'GET'])
 def result():
-
-
     
 
     #function defining a network address and the first host
