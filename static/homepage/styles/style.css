@@ -8,6 +8,7 @@ body {
     width: auto;
     background-image: url("../images/background_homepage.png");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #homepage {
